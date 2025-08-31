@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "A company is planning to migrate its on-premises database to AWS. The database is 10 TB in size and experiences heavy read traffic. Which AWS service would be the MOST cost-effective solution for this use case?",
+    "options": [
+      {
+        "label": "Amazon RDS for MySQL",
+        "id": 1
+      },
+      {
+        "label": "Amazon DynamoDB",
+        "id": 2
+      },
+      {
+        "label": "Amazon Redshift",
+        "id": 3
+      },
+      {
+        "label": "Amazon Aurora",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 3,
+    "explanation": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database that offers higher performance and availability than standard MySQL at a lower cost. It's ideal for heavy read traffic scenarios."
+  },
+  {
+    "id": 2,
+    "question": "Which AWS service provides a fully managed, petabyte-scale data warehouse service?",
+    "options": [
+      {
+        "label": "Amazon RDS",
+        "id": 1
+      },
+      {
+        "label": "Amazon DynamoDB",
+        "id": 2
+      },
+      {
+        "label": "Amazon Redshift",
+        "id": 3
+      },
+      {
+        "label": "Amazon ElastiCache",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 2,
+    "explanation": "Amazon Redshift is a fully managed, petabyte-scale data warehouse service that makes it simple and cost-effective to analyze all your data using standard SQL and your existing business intelligence tools."
+  },
+  {
+    "id": 3,
+    "question": "A company needs to store sensitive customer data and must ensure that the data is encrypted at rest. Which AWS service provides server-side encryption by default?",
+    "options": [
+      {
+        "label": "Amazon S3",
+        "id": 1
+      },
+      {
+        "label": "Amazon EBS",
+        "id": 2
+      },
+      {
+        "label": "Amazon Glacier",
+        "id": 3
+      },
+      {
+        "label": "All of the above",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 3,
+    "explanation": "All of these AWS services provide server-side encryption by default. Amazon S3, EBS, and Glacier all offer encryption options to protect data at rest."
+  },
+  {
+    "id": 4,
+    "question": "Which AWS service allows you to run code without provisioning or managing servers?",
+    "options": [
+      {
+        "label": "Amazon EC2",
+        "id": 1
+      },
+      {
+        "label": "AWS Lambda",
+        "id": 2
+      },
+      {
+        "label": "Amazon ECS",
+        "id": 3
+      },
+      {
+        "label": "Amazon EKS",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 1,
+    "explanation": "AWS Lambda is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you."
+  },
+  {
+    "id": 5,
+    "question": "A company wants to implement a content delivery network (CDN) to improve the performance of their global web application. Which AWS service should they use?",
+    "options": [
+      {
+        "label": "Amazon Route 53",
+        "id": 1
+      },
+      {
+        "label": "Amazon CloudFront",
+        "id": 2
+      },
+      {
+        "label": "AWS Global Accelerator",
+        "id": 3
+      },
+      {
+        "label": "Amazon VPC",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 1,
+    "explanation": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds."
+  },
+  {
+    "id": 6,
+    "question": "Which AWS service provides a managed NoSQL database service?",
+    "options": [
+      {
+        "label": "Amazon RDS",
+        "id": 1
+      },
+      {
+        "label": "Amazon DynamoDB",
+        "id": 2
+      },
+      {
+        "label": "Amazon Redshift",
+        "id": 3
+      },
+      {
+        "label": "Amazon Aurora",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 1,
+    "explanation": "Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability."
+  },
+  {
+    "id": 7,
+    "question": "A company needs to set up a virtual private cloud (VPC) with both public and private subnets. Which AWS service should they use?",
+    "options": [
+      {
+        "label": "Amazon VPC",
+        "id": 1
+      },
+      {
+        "label": "AWS Direct Connect",
+        "id": 2
+      },
+      {
+        "label": "Amazon Route 53",
+        "id": 3
+      },
+      {
+        "label": "AWS CloudFormation",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 0,
+    "explanation": "Amazon VPC lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define."
+  },
+  {
+    "id": 8,
+    "question": "Which AWS service provides object storage with unlimited scalability?",
+    "options": [
+      {
+        "label": "Amazon EBS",
+        "id": 1
+      },
+      {
+        "label": "Amazon S3",
+        "id": 2
+      },
+      {
+        "label": "Amazon EFS",
+        "id": 3
+      },
+      {
+        "label": "Amazon Glacier",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 1,
+    "explanation": "Amazon S3 provides object storage with industry-leading scalability, data availability, security, and performance."
+  },
+  {
+    "id": 9,
+    "question": "A company wants to automate the deployment of their applications. Which AWS service should they use?",
+    "options": [
+      {
+        "label": "AWS CodePipeline",
+        "id": 1
+      },
+      {
+        "label": "AWS CodeBuild",
+        "id": 2
+      },
+      {
+        "label": "AWS CodeDeploy",
+        "id": 3
+      },
+      {
+        "label": "All of the above",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 3,
+    "explanation": "All of these services are part of AWS's developer tools suite. CodePipeline provides CI/CD, CodeBuild provides build services, and CodeDeploy provides automated deployment."
+  },
+  {
+    "id": 10,
+    "question": "Which AWS service provides a managed message queuing service?",
+    "options": [
+      {
+        "label": "Amazon SQS",
+        "id": 1
+      },
+      {
+        "label": "Amazon SNS",
+        "id": 2
+      },
+      {
+        "label": "Amazon Kinesis",
+        "id": 3
+      },
+      {
+        "label": "Amazon MQ",
+        "id": 4
+      }
+    ],
+    "flag": false,
+    "selectedAnswer": null,
+    "correctAnswer": 0,
+    "explanation": "Amazon SQS (Simple Queue Service) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications."
+  }
+]
