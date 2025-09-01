@@ -25,3 +25,10 @@ build/
 .claude/
 .cursor/
 .yoyo/
+
+# lock files 
+*.lock
+
+# uv environment
+.venv/
+.python-version

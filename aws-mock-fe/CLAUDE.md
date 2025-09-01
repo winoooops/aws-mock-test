@@ -46,7 +46,6 @@ src/
 - `npm run preview` - Preview production build
 
 ## Key Features
-- **10 Sample Questions**: Covering core AWS SAA topics (EC2, S3, RDS, Lambda, etc.)
 - **Theme Persistence**: User's color scheme choice saved to localStorage
 - **Answer Validation**: Immediate feedback with modern UI elements
 - **Progress Indicators**: Advanced dual-track progress bars with animated indicators

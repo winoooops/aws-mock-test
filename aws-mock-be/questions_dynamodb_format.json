@@ -1,0 +1,792 @@
+[
+  {
+    "PK": {
+      "S": "QUESTION#95556dd7-2b52-4f9f-89d2-890812fb04cd"
+    },
+    "SK": {
+      "S": "Q#1"
+    },
+    "GSI1SK": {
+      "S": "Q#1"
+    },
+    "id": {
+      "S": "95556dd7-2b52-4f9f-89d2-890812fb04cd"
+    },
+    "question_number": {
+      "S": "1"
+    },
+    "question_text": {
+      "S": "A company collects data for temperature, humidity, and atmospheric pressure in cities across multiple continents. The average volume of data that the company collects from each site daily is 500 GB. Each site has a high-speed Internet connection. The company wants to aggregate the data from all these global sites as quickly as possible in a single Amazon S3 bucket. The solution must minimize operational complexity. Which solution meets these requirements?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "1"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Turn on S3 Transfer Acceleration on the destination S3 bucket. Use multipart uploads to directly upload site data to the destination S3 bucket."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Upload the data from each site to an S3 bucket in the closest Region. Use S3 Cross-Region Replication to copy objects to the destination S3 bucket. Then remove the data from the origin S3 bucket."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Schedule AWS Snowball Edge Storage Optimized device jobs daily to transfer data from each site to the closest Region. Use S3 Cross-Region Replication to copy objects to the destination S3 bucket."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Upload the data from each site to an Amazon EC2 instance in the closest Region. Store the data in an Amazon Elastic Block Store (Amazon EBS) volume. At regular intervals, take an EBS snapshot and copy it to the Region that contains the destination S3 bucket. Restore the EBS volume in that Region."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PK": {
+      "S": "QUESTION#95d193fa-d47b-460f-bb95-15b23888d6ff"
+    },
+    "SK": {
+      "S": "Q#2"
+    },
+    "GSI1SK": {
+      "S": "Q#2"
+    },
+    "id": {
+      "S": "95d193fa-d47b-460f-bb95-15b23888d6ff"
+    },
+    "question_number": {
+      "S": "2"
+    },
+    "question_text": {
+      "S": "A company needs the ability to analyze the log files of its proprietary application. The logs are stored in JSON format in an Amazon S3 bucket. Queries will be simple and will run on-demand. A solutions architect needs to perform the analysis with minimal changes to the existing architecture. What should the solutions architect do to meet these requirements with the LEAST amount of operational overhead?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "2"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Use Amazon Redshift to load all the content into one place and run the SQL queries as needed."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Use Amazon CloudWatch Logs to store the logs. Run SQL queries as needed from the Amazon CloudWatch console."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Use Amazon Athena directly with Amazon S3 to run the queries as needed."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Use AWS Glue to catalog the logs. Use a transient Apache Spark cluster on Amazon EMR to run the SQL queries as needed."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PK": {
+      "S": "QUESTION#5f30c5bd-6b61-4ec1-8360-30fcd8b1118c"
+    },
+    "SK": {
+      "S": "Q#3"
+    },
+    "GSI1SK": {
+      "S": "Q#3"
+    },
+    "id": {
+      "S": "5f30c5bd-6b61-4ec1-8360-30fcd8b1118c"
+    },
+    "question_number": {
+      "S": "3"
+    },
+    "question_text": {
+      "S": "A company uses AWS Organizations to manage multiple AWS accounts for different departments. The management account has an Amazon S3 bucket that contains project reports. The company wants to limit access to this S3 bucket to only users of accounts within the organization in AWS Organizations. Which solution meets these requirements with the LEAST amount of operational overhead?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "3"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Add the aws PrincipalOrgID global condition key with a reference to the organization ID to the S3 bucket policy."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Create an organizational unit (OU) for each department. Add the aws:PrincipalOrgPaths global condition key to the S3 bucket policy."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Use AWS CloudTrail to monitor the CreateAccount, InviteAccountToOrganization, LeaveOrganization, and RemoveAccountFromOrganization events. Update the S3 bucket policy accordingly."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Tag each user that needs access to the S3 bucket. Add the aws:PrincipalTag global condition key to the S3 bucket policy."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PK": {
+      "S": "QUESTION#e0e51d12-325b-479b-961a-1051eaa119eb"
+    },
+    "SK": {
+      "S": "Q#4"
+    },
+    "GSI1SK": {
+      "S": "Q#4"
+    },
+    "id": {
+      "S": "e0e51d12-325b-479b-961a-1051eaa119eb"
+    },
+    "question_number": {
+      "S": "4"
+    },
+    "question_text": {
+      "S": "An application runs on an Amazon EC2 instance in a VPC. The application processes logs that are stored in an Amazon S3 bucket. The EC2 instance needs to access the S3 bucket without connectivity to the internet. Which solution will provide private network connectivity to Amazon S3?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "4"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Create a gateway VPC endpoint to the S3 bucket."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Stream the logs to Amazon CloudWatch Logs. Export the logs to the S3 bucket."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Create an instance profile on Amazon EC2 to allow S3 access."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Create an Amazon API Gateway API with a private link to access the S3 endpoint."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PK": {
+      "S": "QUESTION#d859f102-9b60-427a-a309-738ec51e5127"
+    },
+    "SK": {
+      "S": "Q#5"
+    },
+    "GSI1SK": {
+      "S": "Q#5"
+    },
+    "id": {
+      "S": "d859f102-9b60-427a-a309-738ec51e5127"
+    },
+    "question_number": {
+      "S": "5"
+    },
+    "question_text": {
+      "S": "A company is hosting a web application on AWS using a single Amazon EC2 instance that stores user-uploaded documents in an Amazon EBS volume. For better scalability and availability, the company duplicated the architecture and created a second EC2 instance and EBS volume in another Availability Zone, placing both behind an Application Load Balancer. After completing this change, users reported that, each time they refreshed the website, they could see one subset of their documents or the other, but never all of the documents at the same time. What should a solutions architect propose to ensure users see all of their documents at once?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "5"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Copy the data so both EBS volumes contain all the documents"
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Configure the Application Load Balancer to direct a user to the server with the documents"
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Copy the data from both EBS volumes to Amazon EFS. Modify the application to save new documents to Amazon EFS"
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Configure the Application Load Balancer to send the request to both servers. Return each document from the correct server"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PK": {
+      "S": "QUESTION#2d860555-6402-4c2b-a29d-5af62c3df441"
+    },
+    "SK": {
+      "S": "Q#6"
+    },
+    "GSI1SK": {
+      "S": "Q#6"
+    },
+    "id": {
+      "S": "2d860555-6402-4c2b-a29d-5af62c3df441"
+    },
+    "question_number": {
+      "S": "6"
+    },
+    "question_text": {
+      "S": "A company uses NFS to store large video files in on-premises network attached storage. Each video file ranges in size from 1 MB to 500 GB. The total storage is 70 TB and is no longer growing. The company decides to migrate the video files to Amazon S3. The company must migrate the video files as soon as possible while using the least possible network bandwidth. Which solution will meet these requirements?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "6"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Create an S3 bucket. Create an IAM role that has permissions to write to the S3 bucket. Use the AWS CLI to copy all files locally to the S3 bucket."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Create an AWS Snowball Edge job. Receive a Snowball Edge device on premises. Use the Snowball Edge client to transfer data to the device. Return the device so that AWS can import the data into Amazon S3."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Deploy an S3 File Gateway on premises. Create a public service endpoint to connect to the S3 File Gateway. Create an S3 bucket. Create a new NFS file share on the S3 File Gateway. Point the new file share to the S3 bucket. Transfer the data from the existing NFS file share to the S3 File Gateway."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Set up an AWS Direct Connect connection between the on-premises network and AWS. Deploy an S3 File Gateway on premises. Create a public virtual interface (VIF) to connect to the S3 File Gateway. Create an S3 bucket. Create a new NFS file share on the S3 File Gateway. Point the new file share to the S3 bucket. Transfer the data from the existing NFS file share to the S3 File Gateway."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PK": {
+      "S": "QUESTION#564850fb-e9a5-4627-b097-b77d688f4f41"
+    },
+    "SK": {
+      "S": "Q#7"
+    },
+    "GSI1SK": {
+      "S": "Q#7"
+    },
+    "id": {
+      "S": "564850fb-e9a5-4627-b097-b77d688f4f41"
+    },
+    "question_number": {
+      "S": "7"
+    },
+    "question_text": {
+      "S": "A company has an application that ingests incoming messages. Dozens of other applications and microservices then quickly consume these messages. The number of messages varies drastically and sometimes increases suddenly to 100,000 each second. The company wants to decouple the solution and increase scalability. Which solution meets these requirements?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "7"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Persist the messages to Amazon Kinesis Data Analytics. Configure the consumer applications to read and process the messages."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Deploy the ingestion application on Amazon EC2 instances in an Auto Scaling group to scale the number of EC2 instances based on CPU metrics."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Write the messages to Amazon Kinesis Data Streams with a single shard. Use an AWS Lambda function to preprocess messages and store them in Amazon DynamoDB. Configure the consumer applications to read from DynamoDB to process the messages."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Publish the messages to an Amazon Simple Notification Service (Amazon SNS) topic with multiple Amazon Simple Queue Service (Amazon SOS) subscriptions. Configure the consumer applications to process the messages from the queues."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PK": {
+      "S": "QUESTION#dc128654-4c59-48d6-826f-fe0dbc6fd457"
+    },
+    "SK": {
+      "S": "Q#8"
+    },
+    "GSI1SK": {
+      "S": "Q#8"
+    },
+    "id": {
+      "S": "dc128654-4c59-48d6-826f-fe0dbc6fd457"
+    },
+    "question_number": {
+      "S": "8"
+    },
+    "question_text": {
+      "S": "A company is migrating a distributed application to AWS. The application serves variable workloads. The legacy platform consists of a primary server that coordinates jobs across multiple compute nodes. The company wants to modernize the application with a solution that maximizes resiliency and scalability. How should a solutions architect design the architecture to meet these requirements?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "8"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Configure an Amazon Simple Queue Service (Amazon SQS) queue as a destination for the jobs. Implement the compute nodes with Amazon EC2 instances that are managed in an Auto Scaling group. Configure EC2 Auto Scaling to use scheduled scaling."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Configure an Amazon Simple Queue Service (Amazon SQS) queue as a destination for the jobs. Implement the compute nodes with Amazon EC2 instances that are managed in an Auto Scaling group. Configure EC2 Auto Scaling based on the size of the queue."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Implement the primary server and the compute nodes with Amazon EC2 instances that are managed in an Auto Scaling group. Configure AWS CloudTrail as a destination for the jobs. Configure EC2 Auto Scaling based on the load on the primary server."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Implement the primary server and the compute nodes with Amazon EC2 instances that are managed in an Auto Scaling group. Configure Amazon EventBridge (Amazon CloudWatch Events) as a destination for the jobs. Configure EC2 Auto Scaling based on the load on the compute nodes."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PK": {
+      "S": "QUESTION#7e0306dc-caa6-436b-819d-918ba42f3cfa"
+    },
+    "SK": {
+      "S": "Q#9"
+    },
+    "GSI1SK": {
+      "S": "Q#9"
+    },
+    "id": {
+      "S": "7e0306dc-caa6-436b-819d-918ba42f3cfa"
+    },
+    "question_number": {
+      "S": "9"
+    },
+    "question_text": {
+      "S": "A company is running an SMB file server in its data center. The file server stores large files that are accessed frequently for the first few days after the files are created. After 7 days the files are rarely accessed. The total data size is increasing and is close to the company's total storage capacity. A solutions architect must increase the company's available storage space without losing low-latency access to the most recently accessed files. The solutions architect must also provide file lifecycle management to avoid future storage issues. Which solution will meet these requirements?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "9"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Use AWS DataSync to copy data that is older than 7 days from the SMB file server to AWS."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Create an Amazon S3 File Gateway to extend the company's storage space. Create an S3 Lifecycle policy to transition the data to S3 Glacier Deep Archive after 7 days."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Create an Amazon FSx for Windows File Server file system to extend the company's storage space."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Install a utility on each user's computer to access Amazon S3. Create an S3 Lifecycle policy to transition the data to S3 Glacier Flexible Retrieval after 7 days."
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PK": {
+      "S": "QUESTION#09e29546-a827-4a75-8c06-7039aee98b23"
+    },
+    "SK": {
+      "S": "Q#10"
+    },
+    "GSI1SK": {
+      "S": "Q#10"
+    },
+    "id": {
+      "S": "09e29546-a827-4a75-8c06-7039aee98b23"
+    },
+    "question_number": {
+      "S": "10"
+    },
+    "question_text": {
+      "S": "A company is building an ecommerce web application on AWS. The application sends information about new orders to an Amazon API Gateway REST API to process. The company wants to ensure that orders are processed in the order that they are received. Which solution will meet these requirements?"
+    },
+    "is_multiple_choice": {
+      "BOOL": true
+    },
+    "how_many_options_should_be_chosen": {
+      "N": "1"
+    },
+    "source_page": {
+      "N": "10"
+    },
+    "created_at": {
+      "S": "2024-01-09T00:00:00Z"
+    },
+    "exam_type": {
+      "S": "AWS-SAA-C03"
+    },
+    "options": {
+      "L": [
+        {
+          "M": {
+            "letter": {
+              "S": "A"
+            },
+            "text": {
+              "S": "Use an API Gateway integration to publish a message to an Amazon Simple Notification Service (Amazon SNS) topic when the application receives an order. Subscribe an AWS Lambda function to the topic to perform processing."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "B"
+            },
+            "text": {
+              "S": "Use an API Gateway integration to send a message to an Amazon Simple Queue Service (Amazon SQS) FIFO queue when the application receives an order. Configure the SQS FIFO queue to invoke an AWS Lambda function for processing."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "C"
+            },
+            "text": {
+              "S": "Use an API Gateway authorizer to block any requests while the application processes an order."
+            }
+          }
+        },
+        {
+          "M": {
+            "letter": {
+              "S": "D"
+            },
+            "text": {
+              "S": "Use an API Gateway integration to send a message to an Amazon Simple Queue Service (Amazon SQS) standard queue when the application receives an order. Configure the SQS standard queue to invoke an AWS Lambda function for processing."
+            }
+          }
+        }
+      ]
+    }
+  }
+]
