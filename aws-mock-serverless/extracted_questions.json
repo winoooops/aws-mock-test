@@ -1,6 +1,6 @@
 [
   {
-    "id": "95556dd7-2b52-4f9f-89d2-890812fb04cd",
+    "id": "fb642692-da0d-495d-b4cd-a0b58882ece3",
     "question_number": "1",
     "question_text": "A company collects data for temperature, humidity, and atmospheric pressure in cities across multiple continents. The average volume of data that the company collects from each site daily is 500 GB. Each site has a high-speed Internet connection. The company wants to aggregate the data from all these global sites as quickly as possible in a single Amazon S3 bucket. The solution must minimize operational complexity. Which solution meets these requirements?",
     "options": [
@@ -21,13 +21,13 @@
         "text": "Upload the data from each site to an Amazon EC2 instance in the closest Region. Store the data in an Amazon Elastic Block Store (Amazon EBS) volume. At regular intervals, take an EBS snapshot and copy it to the Region that contains the destination S3 bucket. Restore the EBS volume in that Region."
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 1
+    "source_page": 1,
+    "exam_type": "AWS-SAA-C03"
   },
   {
-    "id": "95d193fa-d47b-460f-bb95-15b23888d6ff",
+    "id": "ae931434-4e7b-4011-b05e-553d341e0614",
     "question_number": "2",
     "question_text": "A company needs the ability to analyze the log files of its proprietary application. The logs are stored in JSON format in an Amazon S3 bucket. Queries will be simple and will run on-demand. A solutions architect needs to perform the analysis with minimal changes to the existing architecture. What should the solutions architect do to meet these requirements with the LEAST amount of operational overhead?",
     "options": [
@@ -48,13 +48,13 @@
         "text": "Use AWS Glue to catalog the logs. Use a transient Apache Spark cluster on Amazon EMR to run the SQL queries as needed."
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 2
+    "source_page": 2,
+    "exam_type": "AWS-SAA-C03"
   },
   {
-    "id": "5f30c5bd-6b61-4ec1-8360-30fcd8b1118c",
+    "id": "af8701ad-0065-45b0-8bdd-24e158516baf",
     "question_number": "3",
     "question_text": "A company uses AWS Organizations to manage multiple AWS accounts for different departments. The management account has an Amazon S3 bucket that contains project reports. The company wants to limit access to this S3 bucket to only users of accounts within the organization in AWS Organizations. Which solution meets these requirements with the LEAST amount of operational overhead?",
     "options": [
@@ -75,13 +75,13 @@
         "text": "Tag each user that needs access to the S3 bucket. Add the aws:PrincipalTag global condition key to the S3 bucket policy."
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 3
+    "source_page": 3,
+    "exam_type": "AWS-SAA-C03"
   },
   {
-    "id": "e0e51d12-325b-479b-961a-1051eaa119eb",
+    "id": "3c0b1e0f-8888-4382-a990-68240e87b9a8",
     "question_number": "4",
     "question_text": "An application runs on an Amazon EC2 instance in a VPC. The application processes logs that are stored in an Amazon S3 bucket. The EC2 instance needs to access the S3 bucket without connectivity to the internet. Which solution will provide private network connectivity to Amazon S3?",
     "options": [
@@ -102,13 +102,13 @@
         "text": "Create an Amazon API Gateway API with a private link to access the S3 endpoint."
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 4
+    "source_page": 4,
+    "exam_type": "AWS-SAA-C03"
   },
   {
-    "id": "d859f102-9b60-427a-a309-738ec51e5127",
+    "id": "0a874d34-9922-41d1-8799-6dc67c1b8bba",
     "question_number": "5",
     "question_text": "A company is hosting a web application on AWS using a single Amazon EC2 instance that stores user-uploaded documents in an Amazon EBS volume. For better scalability and availability, the company duplicated the architecture and created a second EC2 instance and EBS volume in another Availability Zone, placing both behind an Application Load Balancer. After completing this change, users reported that, each time they refreshed the website, they could see one subset of their documents or the other, but never all of the documents at the same time. What should a solutions architect propose to ensure users see all of their documents at once?",
     "options": [
@@ -129,13 +129,13 @@
         "text": "Configure the Application Load Balancer to send the request to both servers. Return each document from the correct server"
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 5
+    "source_page": 5,
+    "exam_type": "AWS-SAA-C03"
   },
   {
-    "id": "2d860555-6402-4c2b-a29d-5af62c3df441",
+    "id": "db5aa25c-a325-4aa5-8c9e-2c0e850df07f",
     "question_number": "6",
     "question_text": "A company uses NFS to store large video files in on-premises network attached storage. Each video file ranges in size from 1 MB to 500 GB. The total storage is 70 TB and is no longer growing. The company decides to migrate the video files to Amazon S3. The company must migrate the video files as soon as possible while using the least possible network bandwidth. Which solution will meet these requirements?",
     "options": [
@@ -156,13 +156,13 @@
         "text": "Set up an AWS Direct Connect connection between the on-premises network and AWS. Deploy an S3 File Gateway on premises. Create a public virtual interface (VIF) to connect to the S3 File Gateway. Create an S3 bucket. Create a new NFS file share on the S3 File Gateway. Point the new file share to the S3 bucket. Transfer the data from the existing NFS file share to the S3 File Gateway."
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 6
+    "source_page": 6,
+    "exam_type": "AWS-SAA-C03"
   },
   {
-    "id": "564850fb-e9a5-4627-b097-b77d688f4f41",
+    "id": "346e799d-1e61-474e-a3c6-e9fdb3abfefd",
     "question_number": "7",
     "question_text": "A company has an application that ingests incoming messages. Dozens of other applications and microservices then quickly consume these messages. The number of messages varies drastically and sometimes increases suddenly to 100,000 each second. The company wants to decouple the solution and increase scalability. Which solution meets these requirements?",
     "options": [
@@ -183,13 +183,13 @@
         "text": "Publish the messages to an Amazon Simple Notification Service (Amazon SNS) topic with multiple Amazon Simple Queue Service (Amazon SOS) subscriptions. Configure the consumer applications to process the messages from the queues."
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 7
+    "source_page": 7,
+    "exam_type": "AWS-SAA-C03"
   },
   {
-    "id": "dc128654-4c59-48d6-826f-fe0dbc6fd457",
+    "id": "92edd006-7503-4b4d-82af-ab91daf50871",
     "question_number": "8",
     "question_text": "A company is migrating a distributed application to AWS. The application serves variable workloads. The legacy platform consists of a primary server that coordinates jobs across multiple compute nodes. The company wants to modernize the application with a solution that maximizes resiliency and scalability. How should a solutions architect design the architecture to meet these requirements?",
     "options": [
@@ -210,13 +210,13 @@
         "text": "Implement the primary server and the compute nodes with Amazon EC2 instances that are managed in an Auto Scaling group. Configure Amazon EventBridge (Amazon CloudWatch Events) as a destination for the jobs. Configure EC2 Auto Scaling based on the load on the compute nodes."
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 8
+    "source_page": 8,
+    "exam_type": "AWS-SAA-C03"
   },
   {
-    "id": "7e0306dc-caa6-436b-819d-918ba42f3cfa",
+    "id": "a7931fa6-2e9b-4f62-b0ad-b4ab50767579",
     "question_number": "9",
     "question_text": "A company is running an SMB file server in its data center. The file server stores large files that are accessed frequently for the first few days after the files are created. After 7 days the files are rarely accessed. The total data size is increasing and is close to the company's total storage capacity. A solutions architect must increase the company's available storage space without losing low-latency access to the most recently accessed files. The solutions architect must also provide file lifecycle management to avoid future storage issues. Which solution will meet these requirements?",
     "options": [
@@ -237,13 +237,13 @@
         "text": "Install a utility on each user's computer to access Amazon S3. Create an S3 Lifecycle policy to transition the data to S3 Glacier Flexible Retrieval after 7 days."
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 9
+    "source_page": 9,
+    "exam_type": "AWS-SAA-C03"
   },
   {
-    "id": "09e29546-a827-4a75-8c06-7039aee98b23",
+    "id": "43a5f455-f0d8-4734-8f34-a12f6cd2b125",
     "question_number": "10",
     "question_text": "A company is building an ecommerce web application on AWS. The application sends information about new orders to an Amazon API Gateway REST API to process. The company wants to ensure that orders are processed in the order that they are received. Which solution will meet these requirements?",
     "options": [
@@ -264,9 +264,9 @@
         "text": "Use an API Gateway integration to send a message to an Amazon Simple Queue Service (Amazon SQS) standard queue when the application receives an order. Configure the SQS standard queue to invoke an AWS Lambda function for processing."
       }
     ],
-    "is_multiple_choice": true,
-    "how_many_options_should_be_chosen": 1,
+    "correct_count": 1,
     "correct_answer": null,
-    "source_page": 10
+    "source_page": 10,
+    "exam_type": "AWS-SAA-C03"
   }
 ]

@@ -1,16 +1,19 @@
 [
   {
     "PK": {
-      "S": "QUESTION#95556dd7-2b52-4f9f-89d2-890812fb04cd"
+      "S": "QUESTION#fb642692-da0d-495d-b4cd-a0b58882ece3"
     },
     "SK": {
       "S": "Q#1"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#1"
     },
     "id": {
-      "S": "95556dd7-2b52-4f9f-89d2-890812fb04cd"
+      "S": "fb642692-da0d-495d-b4cd-a0b58882ece3"
     },
     "question_number": {
       "S": "1"
@@ -18,17 +21,11 @@
     "question_text": {
       "S": "A company collects data for temperature, humidity, and atmospheric pressure in cities across multiple continents. The average volume of data that the company collects from each site daily is 500 GB. Each site has a high-speed Internet connection. The company wants to aggregate the data from all these global sites as quickly as possible in a single Amazon S3 bucket. The solution must minimize operational complexity. Which solution meets these requirements?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "1"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
@@ -80,16 +77,19 @@
   },
   {
     "PK": {
-      "S": "QUESTION#95d193fa-d47b-460f-bb95-15b23888d6ff"
+      "S": "QUESTION#ae931434-4e7b-4011-b05e-553d341e0614"
     },
     "SK": {
       "S": "Q#2"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#2"
     },
     "id": {
-      "S": "95d193fa-d47b-460f-bb95-15b23888d6ff"
+      "S": "ae931434-4e7b-4011-b05e-553d341e0614"
     },
     "question_number": {
       "S": "2"
@@ -97,17 +97,11 @@
     "question_text": {
       "S": "A company needs the ability to analyze the log files of its proprietary application. The logs are stored in JSON format in an Amazon S3 bucket. Queries will be simple and will run on-demand. A solutions architect needs to perform the analysis with minimal changes to the existing architecture. What should the solutions architect do to meet these requirements with the LEAST amount of operational overhead?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "2"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
@@ -159,16 +153,19 @@
   },
   {
     "PK": {
-      "S": "QUESTION#5f30c5bd-6b61-4ec1-8360-30fcd8b1118c"
+      "S": "QUESTION#af8701ad-0065-45b0-8bdd-24e158516baf"
     },
     "SK": {
       "S": "Q#3"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#3"
     },
     "id": {
-      "S": "5f30c5bd-6b61-4ec1-8360-30fcd8b1118c"
+      "S": "af8701ad-0065-45b0-8bdd-24e158516baf"
     },
     "question_number": {
       "S": "3"
@@ -176,17 +173,11 @@
     "question_text": {
       "S": "A company uses AWS Organizations to manage multiple AWS accounts for different departments. The management account has an Amazon S3 bucket that contains project reports. The company wants to limit access to this S3 bucket to only users of accounts within the organization in AWS Organizations. Which solution meets these requirements with the LEAST amount of operational overhead?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "3"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
@@ -238,16 +229,19 @@
   },
   {
     "PK": {
-      "S": "QUESTION#e0e51d12-325b-479b-961a-1051eaa119eb"
+      "S": "QUESTION#3c0b1e0f-8888-4382-a990-68240e87b9a8"
     },
     "SK": {
       "S": "Q#4"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#4"
     },
     "id": {
-      "S": "e0e51d12-325b-479b-961a-1051eaa119eb"
+      "S": "3c0b1e0f-8888-4382-a990-68240e87b9a8"
     },
     "question_number": {
       "S": "4"
@@ -255,17 +249,11 @@
     "question_text": {
       "S": "An application runs on an Amazon EC2 instance in a VPC. The application processes logs that are stored in an Amazon S3 bucket. The EC2 instance needs to access the S3 bucket without connectivity to the internet. Which solution will provide private network connectivity to Amazon S3?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "4"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
@@ -317,16 +305,19 @@
   },
   {
     "PK": {
-      "S": "QUESTION#d859f102-9b60-427a-a309-738ec51e5127"
+      "S": "QUESTION#0a874d34-9922-41d1-8799-6dc67c1b8bba"
     },
     "SK": {
       "S": "Q#5"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#5"
     },
     "id": {
-      "S": "d859f102-9b60-427a-a309-738ec51e5127"
+      "S": "0a874d34-9922-41d1-8799-6dc67c1b8bba"
     },
     "question_number": {
       "S": "5"
@@ -334,17 +325,11 @@
     "question_text": {
       "S": "A company is hosting a web application on AWS using a single Amazon EC2 instance that stores user-uploaded documents in an Amazon EBS volume. For better scalability and availability, the company duplicated the architecture and created a second EC2 instance and EBS volume in another Availability Zone, placing both behind an Application Load Balancer. After completing this change, users reported that, each time they refreshed the website, they could see one subset of their documents or the other, but never all of the documents at the same time. What should a solutions architect propose to ensure users see all of their documents at once?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "5"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
@@ -396,16 +381,19 @@
   },
   {
     "PK": {
-      "S": "QUESTION#2d860555-6402-4c2b-a29d-5af62c3df441"
+      "S": "QUESTION#db5aa25c-a325-4aa5-8c9e-2c0e850df07f"
     },
     "SK": {
       "S": "Q#6"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#6"
     },
     "id": {
-      "S": "2d860555-6402-4c2b-a29d-5af62c3df441"
+      "S": "db5aa25c-a325-4aa5-8c9e-2c0e850df07f"
     },
     "question_number": {
       "S": "6"
@@ -413,17 +401,11 @@
     "question_text": {
       "S": "A company uses NFS to store large video files in on-premises network attached storage. Each video file ranges in size from 1 MB to 500 GB. The total storage is 70 TB and is no longer growing. The company decides to migrate the video files to Amazon S3. The company must migrate the video files as soon as possible while using the least possible network bandwidth. Which solution will meet these requirements?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "6"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
@@ -475,16 +457,19 @@
   },
   {
     "PK": {
-      "S": "QUESTION#564850fb-e9a5-4627-b097-b77d688f4f41"
+      "S": "QUESTION#346e799d-1e61-474e-a3c6-e9fdb3abfefd"
     },
     "SK": {
       "S": "Q#7"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#7"
     },
     "id": {
-      "S": "564850fb-e9a5-4627-b097-b77d688f4f41"
+      "S": "346e799d-1e61-474e-a3c6-e9fdb3abfefd"
     },
     "question_number": {
       "S": "7"
@@ -492,17 +477,11 @@
     "question_text": {
       "S": "A company has an application that ingests incoming messages. Dozens of other applications and microservices then quickly consume these messages. The number of messages varies drastically and sometimes increases suddenly to 100,000 each second. The company wants to decouple the solution and increase scalability. Which solution meets these requirements?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "7"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
@@ -554,16 +533,19 @@
   },
   {
     "PK": {
-      "S": "QUESTION#dc128654-4c59-48d6-826f-fe0dbc6fd457"
+      "S": "QUESTION#92edd006-7503-4b4d-82af-ab91daf50871"
     },
     "SK": {
       "S": "Q#8"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#8"
     },
     "id": {
-      "S": "dc128654-4c59-48d6-826f-fe0dbc6fd457"
+      "S": "92edd006-7503-4b4d-82af-ab91daf50871"
     },
     "question_number": {
       "S": "8"
@@ -571,17 +553,11 @@
     "question_text": {
       "S": "A company is migrating a distributed application to AWS. The application serves variable workloads. The legacy platform consists of a primary server that coordinates jobs across multiple compute nodes. The company wants to modernize the application with a solution that maximizes resiliency and scalability. How should a solutions architect design the architecture to meet these requirements?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "8"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
@@ -633,16 +609,19 @@
   },
   {
     "PK": {
-      "S": "QUESTION#7e0306dc-caa6-436b-819d-918ba42f3cfa"
+      "S": "QUESTION#a7931fa6-2e9b-4f62-b0ad-b4ab50767579"
     },
     "SK": {
       "S": "Q#9"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#9"
     },
     "id": {
-      "S": "7e0306dc-caa6-436b-819d-918ba42f3cfa"
+      "S": "a7931fa6-2e9b-4f62-b0ad-b4ab50767579"
     },
     "question_number": {
       "S": "9"
@@ -650,17 +629,11 @@
     "question_text": {
       "S": "A company is running an SMB file server in its data center. The file server stores large files that are accessed frequently for the first few days after the files are created. After 7 days the files are rarely accessed. The total data size is increasing and is close to the company's total storage capacity. A solutions architect must increase the company's available storage space without losing low-latency access to the most recently accessed files. The solutions architect must also provide file lifecycle management to avoid future storage issues. Which solution will meet these requirements?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "9"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
@@ -712,16 +685,19 @@
   },
   {
     "PK": {
-      "S": "QUESTION#09e29546-a827-4a75-8c06-7039aee98b23"
+      "S": "QUESTION#43a5f455-f0d8-4734-8f34-a12f6cd2b125"
     },
     "SK": {
       "S": "Q#10"
+    },
+    "GSI1PK": {
+      "S": "EXAM#AWS-SAA-C03"
     },
     "GSI1SK": {
       "S": "Q#10"
     },
     "id": {
-      "S": "09e29546-a827-4a75-8c06-7039aee98b23"
+      "S": "43a5f455-f0d8-4734-8f34-a12f6cd2b125"
     },
     "question_number": {
       "S": "10"
@@ -729,17 +705,11 @@
     "question_text": {
       "S": "A company is building an ecommerce web application on AWS. The application sends information about new orders to an Amazon API Gateway REST API to process. The company wants to ensure that orders are processed in the order that they are received. Which solution will meet these requirements?"
     },
-    "is_multiple_choice": {
-      "BOOL": true
-    },
-    "how_many_options_should_be_chosen": {
+    "correct_count": {
       "N": "1"
     },
     "source_page": {
       "N": "10"
-    },
-    "created_at": {
-      "S": "2024-01-09T00:00:00Z"
     },
     "exam_type": {
       "S": "AWS-SAA-C03"
